@@ -5,7 +5,7 @@ https://pypi.org/project/buppy/
 # install
 pip install buppy
 
-# upgrade
+# update
 pip install buppy --upgrade
 
 # use
