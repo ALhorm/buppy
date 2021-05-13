@@ -1,7 +1,7 @@
 class Backup:
-	def getcontent(filename):
+	def gcff(filename):
 		filedata = open(filename, "r")
-		file = open("backup.txt", "w")
+		file = open("backup_" + filename + ".py", "w")
 		file.write(filedata.read())
 		print("\nBackup created!")
 		file.close()
