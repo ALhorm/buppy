@@ -1,7 +1,7 @@
 class Backup:
-	def gcff(filename):
+	def result(filename, expansion):
 		filedata = open(filename + ".py", "r")
-		file = open("backup_" + filename + ".py", "w")
+		file = open("backup_" + filename + "." + expansion, "w")
 		file.write(filedata.read())
 		print("\nBackup created!")
 		file.close()
