@@ -11,4 +11,4 @@ pip install buppy --upgrade
 # use
 from buppy import Backup
 
-Backup.getcontent("filename")
+Backup.gcff("filename")
