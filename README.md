@@ -13,6 +13,6 @@ from buppy import Backup
 
 Backup.gcff("filename", "extension")
 
-# Definitions
+# definitions
 filename - file name without extension
 extension - file extension(.txt, .ini, .py)
