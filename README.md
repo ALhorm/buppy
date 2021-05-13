@@ -11,6 +11,8 @@ pip install buppy --upgrade
 # use
 from buppy import Backup
 
-Backup.gcff("filename")
+Backup.gcff("filename", "extension")
 
+# Definitions
 filename - file name without extension
+extension - file extension(.txt, .ini, .py)
