@@ -16,4 +16,4 @@ Backup.gcff("filename", "extension")
 # definitions
 filename - file name without extension
 
-extension - file extension(.txt, .ini, .py)
+extension - backup file extension(.txt, .ini, .py)
