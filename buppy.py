@@ -1,8 +1,8 @@
 class Backup:
-	def result(filename, expansion):
+	def result(filename, extension):
 		filedata = open(filename + ".py", "r")
-		file = open("backup_" + filename + "." + expansion, "w")
+		file = open("backup_" + filename + "." + extension, "w")
 		file.write(filedata.read())
-		print("\nBackup created!")
+		print("\nThe backup is created and saved to a file " + "backup_" + filename + "." + extension)
 		file.close()
 		filedata.close()
