@@ -11,7 +11,7 @@ pip install buppy --upgrade
 # use
 from buppy import Backup
 
-// your code
+(your code)
 
 Backup.result("filename", "extension")
 
