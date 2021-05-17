@@ -13,7 +13,7 @@ from buppy import Backup
 
 (your code)
 
-Backup.result("filename", "extension")
+Backup.save("filename", "extension")
 
 # definitions
 filename - file name without extension
