@@ -13,9 +13,7 @@ from buppy import Backup
 
 (your code)
 
-Backup.save("filename", "extension")
+Backup.save("filename")
 
 # definitions
 filename - file name without extension
-
-extension - backup file extension(txt, ini, py)
